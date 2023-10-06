@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+header ul li{
+    width: 70px;
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+nav{
+    background-repeat: no-repeat;
+    background-image:url("https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg");
+    width: 100%;
+    height: 900px;
+    padding: 100px;
+    
+}
+.top{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    /* padding:100px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+}
+.bottom{
+  
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  color: aliceblue;
+    justify-content: center;
+    gap: 30px;
+}
+.bottom p{
+    font-size: 80px;
+}
+.bottom button{
+    width: 250px;
+    height: 100px;
+border-radius: 50px;
+    background-color: goldenrod;
+}
